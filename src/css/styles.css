@@ -58,8 +58,27 @@ h2 {
   vertical-align: middle;
 }
 
+button {
+  display: block;
+  margin: 0 auto;
+  margin-top: 30px;
+  text-align: center;
+  padding: 3px;
+  font-size: 12px;
+}
+.hidden {
+  display: none;
+}
+button:hover {
+  cursor: pointer;
+}
+
 footer {
   text-align: center;
   font-size: 14px;
   color: rgba(0, 0, 0, 0.7);
+}
+
+.tz-info-hidden {
+  display: none;
 }
